@@ -20,20 +20,7 @@ It connects to a MySQL database and uses the JCalendar library
 - MySQL (for database)
 - jcalendar.jar (for date selection)
 
-📁 FILE STRUCTURE
----------------------------------------------------------------
-bank.management.system/
-│
-├── Signup.java          --> Page 1: Personal Details
-├── Signup2.java         --> Page 2: Additional Details
-├── Signup3.java         --> Page 3: Account Type, Services
-├── Deposit.java         --> Deposit money (assumed present)
-├── Withdrawl.java       --> Withdraw money
-├── Pin.java             --> Change PIN functionality
-├── main_Class.java      --> Main dashboard/home after login (assumed)
-├── Con.java             --> JDBC connection class
-├── /icon/               --> Contains image files (bank.png, atm2.png)
-└── README.txt           --> This file
+
 
 🧾 DATABASE SCHEMA (MySQL)
 ---------------------------------------------------------------
@@ -92,7 +79,7 @@ CREATE TABLE bank (
    );
    -----------------------------------
 
-5. Run `Signup.java` to begin registration.
+5. Run `login.java` to begin registration.
 6. After completing all forms, you can deposit, withdraw or change PIN.
 
 📍 NOTES
@@ -104,6 +91,6 @@ CREATE TABLE bank (
 
 👨‍💻 AUTHOR
 ---------------------------------------------------------------
-Developed by: Sam Raj  
-Final Year CSE Student  
+Developed by: Samraj  
+2nd Year CSE Student  
 Aspiring Full Stack Java Developer
